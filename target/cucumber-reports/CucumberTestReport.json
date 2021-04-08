@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": ": Flipkart login test",
+        "description": "",
+        "id": "flipkart-login-test;:-flipkart-login-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11210775600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10525400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title is login page is flipkart login",
+            "match": {
+              "location": "LoginStepDefination.title_is_login_page_is_flipkart_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262025700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"ankitpatel9429@gmail.com\" and \"Erpa_1992\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ankitpatel9429@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Erpa_1992",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94064700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3017448100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user redirected to home page",
+            "match": {
+              "location": "LoginStepDefination.user_redirected_to_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 772131800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Flipkart login Test",
+    "description": "",
+    "id": "flipkart-login-test",
+    "keyword": "Feature",
+    "uri": "E:/Java/Selenium_WorkSpace/CucumberTestNG/src/main/java/Features/Login.feature"
+  }
+]
